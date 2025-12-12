@@ -4,7 +4,7 @@
 
 * **Nama:** Ardha Ferbian Muqorrobin
 * **Repo:** [UAS_Exasens_Classification](https://github.com/asammanis89/UAS_Exasens_Classification)
-* **Video:** (https://youtu.be/FN3RWlT5N1Y)
+* **Video:** https://youtu.be/FN3RWlT5N1Y
 
 ---
 
