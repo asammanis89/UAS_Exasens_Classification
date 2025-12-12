@@ -1,15 +1,15 @@
 ## INFORMASI PROYEK
 
 **Judul Proyek:**  
-[(Contoh: "Klasifikasi Penyakit Daun Menggunakan CNN", "Prediksi Harga Rumah dengan Machine Learning", "Analisis Sentimen Ulasan Produk")]
+[(Contoh: "Klasifikasi Diagnosis Penyakit Pernapasan Menggunakan Dataset Exasens")]
 
-**Nama Mahasiswa:** [Nama Lengkap]  
-**NIM:** [Nomor Induk Mahasiswa]  
-**Program Studi:** [Teknologi Informasi / Rekayasa Perangkat Lunak]  
-**Mata Kuliah:** [Nama Mata Kuliah]  
-**Dosen Pengampu:** [Nama Dosen]  
-**Tahun Akademik:** [Tahun/Semester]
-**Link GitHub Repository:** [URL Repository]
+**Nama Mahasiswa:** [Ardha Ferbian Muqorrobin]  
+**NIM:** [233307033]  
+**Program Studi:** [Teknologi Informasi]  
+**Mata Kuliah:** [Data Science]  
+**Dosen Pengampu:** [Gus Nanang Syaifuddiin]  
+**Tahun Akademik:** [2025/Semester5]
+**Link GitHub Repository:** [https://github.com/asammanis89/UAS_Exasens_Classification]
 **Link Video Pembahasan:** [URL Repository]
 
 ---
@@ -750,3 +750,4 @@ nltk==3.8.1           # untuk NLP
 transformers==4.30.0  # untuk BERT, dll
 
 ```
+
