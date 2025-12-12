@@ -1,108 +1,60 @@
-# 📘 Judul Proyek
-*(Isi judul proyek Anda di sini)*
+# 📘 Klasifikasi Diagnosis Penyakit (Exasens Dataset)
 
-## 👤 Informasi
-- **Nama:** [...]  
-- **Repo:** [...]  
-- **Video:** [...]  
+### 👤 Informasi
 
----
-
-# 1. 🎯 Ringkasan Proyek
-- Menyelesaikan permasalahan sesuai domain  
-- Melakukan data preparation  
-- Membangun 3 model: **Baseline**, **Advanced**, **Deep Learning**  
-- Melakukan evaluasi dan menentukan model terbaik  
+* **Nama:** Ardha Ferbian Muqorrobin
+* **Repo:** [UAS_Exasens_Classification](https://github.com/asammanis89/UAS_Exasens_Classification)
+* **Video:** [Link Video Demo/Penjelasan Anda Di Sini]
 
 ---
 
-# 2. 📄 Problem & Goals
-**Problem Statements:**  
-- [...]  
-- [...]  
+### 1. 🎯 Ringkasan Proyek
 
-**Goals:**  
-- [...]  
-- [...]  
+Proyek ini bertujuan untuk menyelesaikan permasalahan klasifikasi medis menggunakan dataset **Exasens** (Exhaled Breath Condensate). Proyek ini mencakup tahapan data preparation, visualisasi, hingga pembangunan model machine learning untuk memprediksi diagnosis penyakit pernapasan.
+
+**Aktivitas Utama:**
+* Melakukan *data cleaning* dan preprocessing pada dataset Exasens.
+* Membangun 3 model perbandingan: **KNN (Baseline)**, **Random Forest (Advanced)**, dan **Deep Learning (MLP)**.
+* Melakukan evaluasi performa berdasarkan akurasi dan waktu komputasi.
 
 ---
-## 📁 Struktur Folder
-```
-project/
+
+### 2. 📄 Problem & Goals
+
+**Problem Statements:**
+* Diagnosis penyakit pernapasan (seperti COPD dan Asma) seringkali membutuhkan waktu lama dan peralatan mahal.
+* Diperlukan metode komputasi yang efisien untuk membantu diagnosis awal berdasarkan sampel *saliva* (air liur) dan data demografis.
+
+**Goals:**
+* Mengembangkan model machine learning yang dapat mengklasifikasikan 4 kondisi pasien: *COPD, Asthma, Infected, dan Healthy*.
+* Menganalisis fitur mana yang paling berpengaruh terhadap diagnosis.
+* Menemukan model dengan keseimbangan terbaik antara akurasi dan efisiensi waktu.
+
+---
+
+### 📁 Struktur Folder
+
+```text
+UAS_Exasens_Classification/
 │
-├── data/                   # Dataset (tidak di-commit, download manual)
+├── data/
+│   └── Exasens.csv         # Dataset utama (399 baris data pasien)
 │
-├── notebooks/              # Jupyter notebooks
-│   └── ML_Project.ipynb
+├── images/                 # Hasil Visualisasi & Plot
+│   ├── Deep_Learning_(MLP).jpg
+│   ├── Distribusi_Kelas_Diagnosis.jpg
+│   ├── Matriks_Korelasi_Antar_Fitur.jpg
+│   ├── TABEL_PERBANDINGAN_MODEL.jpg
+│   └── Visual_Sebaran_Umur_Berdasarkan_Diagnosis.jpg
 │
-├── src/                    # Source code
-│   
-├── models/                 # Saved models
-│   ├── model_baseline.pkl
-│   ├── model_rf.pkl
-│   └── model_cnn.h5
+├── models/                 # Model yang sudah dilatih
+│   ├── model_exasens_knn.pkl
+│   ├── model_exasens_rf.pkl
+│   └── model_exasens_mlp.h5
 │
-├── images/                 # Visualizations
-│   └── r
+├── notebooks/
+│   └── UAS_DATASIENCE.ipynb
 │
-├── requirements.txt        # Dependencies
-├── .gitignore
+├── Laporan Proyek Machine Learning.md
+├── requirements.txt
 └── README.md
-```
----
-
-# 3. 📊 Dataset
-- **Sumber:** [...]  
-- **Jumlah Data:** [...]  
-- **Tipe:** [...]  
-
-### Fitur Utama
-| Fitur | Deskripsi |
-|------|-----------|
-| ... | ... |
-
----
-
-# 4. 🔧 Data Preparation
-- Cleaning (missing/duplicate/outliers)  
-- Transformasi (encoding/scaling)  
-- Splitting (train/val/test)  
-
----
-
-# 5. 🤖 Modeling
-- **Model 1 – Baseline:** [...]  
-- **Model 2 – Advanced ML:** [...]  
-- **Model 3 – Deep Learning:** [...]  
-
----
-
-# 6. 🧪 Evaluation
-**Metrik:** Accuracy / F1 / MAE / MSE (pilih sesuai tugas)
-
-### Hasil Singkat
-| Model | Score | Catatan |
-|-------|--------|---------|
-| Baseline | [...] | |
-| Advanced | [...] | |
-| Deep Learning | [...] | |
-
----
-
-# 7. 🏁 Kesimpulan
-- Model terbaik: [...]  
-- Alasan: [...]  
-- Insight penting: [...]  
-
----
-
-# 8. 🔮 Future Work
-- [ ] Tambah data  
-- [ ] Tuning model  
-- [ ] Coba arsitektur DL lain  
-- [ ] Deployment  
-
----
-
-# 9. 🔁 Reproducibility
-Gunakan environment:
