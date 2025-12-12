@@ -4,7 +4,7 @@
 
 * **Nama:** Ardha Ferbian Muqorrobin
 * **Repo:** [UAS_Exasens_Classification](https://github.com/asammanis89/UAS_Exasens_Classification)
-* **Video:** [Link Video Demo/Penjelasan Anda Di Sini]
+* **Video:** (https://youtu.be/FN3RWlT5N1Y)
 
 ---
 
@@ -55,7 +55,7 @@ UAS_Exasens_Classification/
 ├── notebooks/              # Jupyter Notebook eksperimen utama
 │   └── UAS_DATASIENCE.ipynb
 │
-├── Laporan Proyek Machine Learning.md
+├── Laporan Proyek Machine Learning.pdf
 ├── requirements.txt        # Daftar library python
 └── README.md
 ```
